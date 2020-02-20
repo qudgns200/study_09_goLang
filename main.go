@@ -1,7 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
+
+func lendAndUpper(name string) (int, string) {
+	return len(name), strings.ToUpper(name)
+}
+
+func repeatMe(words ...string) {
+	fmt.Println(words)
+}
 
 func main() {
-	fmt.Println("HelloWorld")
+	// totalLength, _ := lendAndUpper("paul")
+	// fmt.Println(totalLength)
+	repeatMe("abc", "def", "ghi", "jkl")
 }
