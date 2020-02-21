@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Study/study_11_dictionary/mydict"
 	"fmt"
+	"study_09_goLang/study_11_dictionary/mydict"
 )
 
 func main() {
